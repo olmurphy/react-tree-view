@@ -1,9 +1,13 @@
-import Dashboard from './components/shared/Dashboard';
+import Entry from "./Entry";
+import { files } from "./files";
+import { FC } from "react";
 
-function App() {
+export default function App() {
   return (
-    <Dashboard />
+    <div style={{ padding: "10px" }}>
+      {files.children?.map((entry) => (
+        <Entry entry={entry} depth={1}/>
+      ))}      
+    </div>
   );
 }
-
-export default App;
