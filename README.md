@@ -1,2 +1,2 @@
-# modal-component
-This is an example of a modal component with TypeScript and React
+# Tree-View-Component
+This is an example of a tree view component with React and TypeScript
